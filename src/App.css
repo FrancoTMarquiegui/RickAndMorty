@@ -1,31 +1,32 @@
 * {
 
   font-family: 'Noticia Text', serif;
-  background-color: #222a3e;
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
   
+}
+body {
+  background-color: #023136;
 }
 
 
 .list {
   display: grid;
-  grid-template-columns: repeat(2, 5fr);
+  grid-template-columns: repeat(3, 1fr);
   align-content: center;
   justify-content: center;
   margin-left: 250px;
-  gap: 30px;
+  gap: 50px;
 }
 
 .img {
   background-image: url('https://www.psdsuckers.com/wp-content/uploads/2022/07/rick-and-morty-logo-font-free-download.jpeg') ;
-
-  background-repeat: no-repeats;
-  background-size: cover;
-  height: 700px;
-
-  width: 100%;
+  background-repeat: no-repeat;
+  justify-content: center;
+  margin-left: 300px;
+  height: 500px;
+  width: 900px;
 }
 
 .search {
@@ -65,6 +66,11 @@ b{
   margin-bottom: 60px;
 }
 
+.input__search {
+  width: 500px;
+  height: 50px;
+}
+
 .box {
   border: 3px transparent black;
 }
@@ -74,8 +80,18 @@ b{
   justify-content: space-evenly;
   margin-bottom: 30px;
   color: #FBFBFB;
+  background-color: #062226;
+  width: 900px;
+  height: 80px;
+  margin: 0 auto;
+  
 }
 
 .seeker{
   color: #FBFBFB;
+}
+
+.color__box {
+  background-color: #062226;
+  width: 300px;
 }
